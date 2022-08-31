@@ -1,0 +1,100 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+  }
+  .about--general__nav--block {
+    width: 262px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+  .hero--general__nav--title__btn1 {
+    margin-top: 20px;
+    margin-left: -30px;
+  }
+  .about--general__nav {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  #header {
+    position: fixed;
+    background: transparent;
+    width: 100%;
+  }
+  .header-block {
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  .zero-title {
+    flex-direction: column;
+  }
+  .zero-block {
+    width: 755px;
+  }
+  .line-bloc2 {
+    width: 300px;
+  }
+  .work-e {
+    flex-wrap: wrap;
+  }
+  .works-d {
+    flex-direction: column;
+    width: 90%;
+  }
+  .reviews-bloc5 {
+    margin-left: 120px;
+  }
+  .waste-block {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+  .header h1 {
+    margin-left: -89px;
+  }
+  .zero-block {
+    width: 400px;
+    margin-left: 2px;
+  }
+  .reviews-bloc5 {
+    margin-left: 0;
+    width: 520px;
+  }
+  .reviews-bloc5 button {
+    margin-left: 25px;
+  }
+  .line-sh {
+    flex-direction: column;
+  }
+  .header-line {
+    width: 574px;
+  }
+  .zero-title p {
+    font-size: 28px;
+  }
+  .zero-block {
+    width: 700px;
+    height: 788px;
+    margin-right: 40px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
